@@ -6,15 +6,18 @@ Il progetto consiste nell'analisi di due diversi dataset: UNSW-NB15 e CSE-CIC-ID
 
 A) SCARICARE I DATASET
 
-- CSE-CIC-IDS2018: Per scaricare il dataset, installare AWS CLI (https://aws.amazon.com/cli/) ed eseguire il seguente comando:
-aws s3 ls --no-sign-request --region ca-central-1 "s3://cse-cic-ids2018/PRE Processed Traffic Data for ML Algorithms/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv"
+- CSE-CIC-IDS2018: Per scaricare il dataset, aprire il link https://www.unb.ca/cic/datasets/ids-2018.html e seguire le istruzioni alla fine della pagina. Conviene però scaricare solo la parte interessata (l'intero dataset è molto grande), ovvero la sottocartella "PRE Processed Traffic Data for ML Algorithms". Al suo interno ci sono diversi file CSV, quello che ho utilizzato io è "Friday-16-02-2018_TrafficForML_CICFlowMeter.csv"
 
 - UNSW-NB15: Accedere alla pagina ufficiale del dataset https://research.unsw.edu.au/projects/unsw-nb15-dataset. Cliccare su "HERE" e nella cartella "CSV Files" scaricare i seguenti file:
-UNSW-NB15_1.csv UNSW-NB15_2.csv UNSW-NB15_3.csv UNSW-NB15_4.csv
+
+UNSW-NB15_1.csv
+UNSW-NB15_2.csv
+UNSW-NB15_3.csv
+UNSW-NB15_4.csv
 
 B) ESEGUIRE IL CODICE
 
-- Codice per UNSW-NB15: I file relativi al dataset UNSW-NB15 sono denominati con il nome del dataset, seguito dalla versione del codice. In ogni file, c'è una breve descrizione in alto che illustra le modifiche rispetto alle versioni precedenti.
+- Codice per UNSW-NB15: I file sono denominati con il nome del dataset, seguito dalla versione del codice. In ogni file, c'è una breve descrizione in alto che illustra le modifiche rispetto alle versioni precedenti.
 
 - Codice per CSE-CIC-IDS2018: I file relativi al dataset CSE-CIC-IDS2018 comprendono il resto del codice. In questo caso esistono due modelli distinti: uno binario e uno multiclasse. Sono facilmente distinguibili dal titolo del file.
 
