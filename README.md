@@ -12,9 +12,7 @@ Il progetto consiste nell'analisi di due diversi dataset: UNSW-NB15 e CSE-CIC-ID
 
 ### ESEGUIRE IL CODICE
 
-- Codice per UNSW-NB15: I file sono denominati con il nome del dataset, seguito dalla versione del codice. In ogni file, c'è una breve descrizione in alto che illustra le modifiche rispetto alle versioni precedenti.
-
-- Codice per CSE-CIC-IDS2018: I file relativi al dataset CSE-CIC-IDS2018 sono quelli che iniziano con "LSTM". In questo caso esistono due modelli distinti: uno binario e uno multiclasse.
+I file sono denominati con il nome del dataset, seguito dalla versione del codice. In ogni file, c'è una breve descrizione in alto che illustra le modifiche rispetto alle versioni precedenti.
 
 Per eseguire il codice, ho utilizzato l'estensione Remote-SSH di VSCode. Mi sono connessa a una macchina virtuale fornita da CloudLab e ho copiato tutti i file (dataset e codice) in una cartella.
 
