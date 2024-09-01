@@ -6,7 +6,7 @@ Il progetto consiste nell'analisi di due diversi dataset: UNSW-NB15 e CSE-CIC-ID
 
 ###  SCARICARE I DATASET
 
-- CSE-CIC-IDS2018: Per scaricare il dataset, aprire il link https://www.unb.ca/cic/datasets/ids-2018.html e seguire le istruzioni alla fine della pagina. Conviene però scaricare solo la parte interessata (l'intero dataset è molto grande), ovvero la sottocartella "PRE Processed Traffic Data for ML Algorithms". Al suo interno ci sono diversi file CSV, quello che ho utilizzato è "Friday-16-02-2018_TrafficForML_CICFlowMeter.csv"
+- CSE-CIC-IDS2018: Per scaricare il dataset, aprire il link https://www.unb.ca/cic/datasets/ids-2018.html e seguire le istruzioni alla fine della pagina. Conviene però scaricare solo la parte interessata (l'intero dataset è molto grande), ovvero la sottocartella "Processed Traffic Data for ML Algorithms". Al suo interno ci sono diversi file CSV, quello che ho utilizzato è "Friday-16-02-2018_TrafficForML_CICFlowMeter.csv"
 
 - UNSW-NB15: Accedere alla pagina ufficiale del dataset https://research.unsw.edu.au/projects/unsw-nb15-dataset. Cliccare su "HERE" e nella cartella "CSV Files" scaricare i seguenti file: UNSW-NB15_1.csv, UNSW-NB15_2.csv, UNSW-NB15_3.csv, UNSW-NB15_4.csv
 
